@@ -20,14 +20,14 @@ def get_student_details(roll_no: str) -> str:
     """Returns student details using roll number."""
 
     students = {
-        "24R21A66G7": {
+        "24R21A66J1": {
             "Name": "Rajesh Prasad Bailwal",
             "Branch": "CSE-AIML",
             "Year": "3rd Year",
             "College": "MLR Institute of Technology",
             CGPA": "7.1"
         },
-        "24R21A66K3": {
+        "24R21A66J4": {
             "Name": "Scanner",
             "Branch": "CSE-AIML",
             "Year": "3rd Year",
