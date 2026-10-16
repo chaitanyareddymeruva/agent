@@ -25,7 +25,7 @@ def get_student_details(roll_no: str) -> str:
             "Branch": "CSE-AIML",
             "Year": "3rd Year",
             "College": "MLR Institute of Technology",
-            CGPA": "7.1"
+            "CGPA": "7.1"
         },
         "24R21A66J4": {
             "Name": "Scanner",
