@@ -21,18 +21,18 @@ def get_student_details(roll_no: str) -> str:
 
     students = {
         "24R21A66G7": {
-            "Name": "Meruva Chaitanya",
+            "Name": "Rajesh Prasad Bailwal",
             "Branch": "CSE-AIML",
             "Year": "3rd Year",
             "College": "MLR Institute of Technology",
-            "CGPA": "8.9"
+            CGPA": "7.1"
         },
         "24R21A66K3": {
-            "Name": "Giridhar",
+            "Name": "Scanner",
             "Branch": "CSE-AIML",
             "Year": "3rd Year",
             "College": "MLR Institute of Technology",
-            "CGPA": "10"
+            "CGPA": "8.2"
         }
     }
 
@@ -53,14 +53,14 @@ def get_student_projects(name: str) -> str:
     """Returns student projects."""
 
     projects = {
-        "meruva chaitanya":
+        "Rajesh Prasad":
         """
         1. Style Swap
         2. Online Fingerprint Authentication for Banking
         3. Gemini RAG Chatbot
         """,
 
-        "giridhar":
+        "Scanner":
         """
         1. Student Attendance System
         2. Library Management System
@@ -79,7 +79,7 @@ def get_student_skills(name: str) -> str:
     """Returns student technical skills."""
 
     skills = {
-        "meruva chaitanya":
+        "rajesh":
         """
         Python
         Java
@@ -95,7 +95,7 @@ def get_student_skills(name: str) -> str:
         GitHub
         """,
 
-        "giridhar":
+        "scanner":
         """
         Python
         Java
